@@ -58,13 +58,12 @@ body {
     transition: opacity 0.3s ease;
   }
   .precio p {
-    font-size: 500%;
+    font-size: auto;
     text-align: center;
   }
   .card:hover .precio {
     opacity: 1;
   }
-
   @media only screen and (max-width: 768px) {
     /* Estilos para dispositivos móviles */
     .container {
